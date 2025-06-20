@@ -4,7 +4,7 @@ import requests
 import random
 from sys import argv
 from string import hexdigits
-
+import lxml_html_clean
 
 CLEAN_LINE = "\033[1K\r"
 GREEN_COLOR = "\033[42;30m"
